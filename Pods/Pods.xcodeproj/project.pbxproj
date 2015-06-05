@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB9AFA21482269F9B38ACFA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27640C54201EA733BF11601B /* Foundation.framework */; };
+		B857A52B8FD50AA411DE3D3C /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0488C416F803E8EC34B7A4F7 /* Pods-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0488C416F803E8EC34B7A4F7 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		06540FC5C38A866AE081FDF1 /* AVGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVGroup.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/Headers/AVGroup.h"; sourceTree = "<group>"; };
+		0BFA985CE3FBE3C60C1D7D2C /* AVGlobal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVGlobal.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/PrivateHeaders/AVGlobal.h"; sourceTree = "<group>"; };
+		0CFF3E7DBA86769B6DBBDBAD /* AFNetworkingFix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkingFix.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/PrivateHeaders/AFNetworkingFix.h"; sourceTree = "<group>"; };
+		11939209C347AC74310BAD8D /* AVConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVConstants.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/Headers/AVConstants.h"; sourceTree = "<group>"; };
+		138D7F14A6FCE4ED45BC8B0A /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		17BFA91892ECA0D00668AA55 /* AVUserFeedbackThread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVUserFeedbackThread.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/Headers/AVUserFeedbackThread.h"; sourceTree = "<group>"; };
+		205591AB07CBB72D0391328C /* AVStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVStatus.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/Headers/AVStatus.h"; sourceTree = "<group>"; };
+		244A77115B339C2F53B4804C /* AVGeoPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVGeoPoint.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/Headers/AVGeoPoint.h"; sourceTree = "<group>"; };
+		27640C54201EA733BF11601B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2998C748CB620FDEABFFD93E /* AVSearchSortBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVSearchSortBuilder.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/Headers/AVSearchSortBuilder.h"; sourceTree = "<group>"; };
+		2DF5468089030E5D09381407 /* AVPropertyListRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVPropertyListRequestOperation.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/PrivateHeaders/AVPropertyListRequestOperation.h"; sourceTree = "<group>"; };
+		2E79DEFCB1AC1DA005CBE75B /* AVXMLRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVXMLRequestOperation.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/PrivateHeaders/AVXMLRequestOperation.h"; sourceTree = "<group>"; };
+		2E9DD96DD03CD9EE6531439E /* AVSignature.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVSignature.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/Headers/AVSignature.h"; sourceTree = "<group>"; };
+		2F06231559DB7F2D09D3FF9C /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		2F20B934D646C97CFB54AC4C /* AVHistoryMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVHistoryMessage.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/Headers/AVHistoryMessage.h"; sourceTree = "<group>"; };
+		3033F197804F68BA8F542B2D /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		384301779FEE7DB08AB4442B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		38862C96359DDD724F1938C7 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4032370B3AFA2127C2C2E4E9 /* AVUserFeedback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVUserFeedback.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/Headers/AVUserFeedback.h"; sourceTree = "<group>"; };
+		48D9DC0B8858AA51C12D4CC4 /* AVACL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVACL.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/Headers/AVACL.h"; sourceTree = "<group>"; };
+		4B1B6E6A5C6872157E601514 /* AVSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVSession.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/Headers/AVSession.h"; sourceTree = "<group>"; };
+		571BE729EFC9D816E0D584FE /* AVRole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVRole.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/Headers/AVRole.h"; sourceTree = "<group>"; };
+		609654E2D9BF144C19651B45 /* AVQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVQuery.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/Headers/AVQuery.h"; sourceTree = "<group>"; };
+		66EA5331604600A2F07D3670 /* AVAnonymousUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVAnonymousUtils.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/Headers/AVAnonymousUtils.h"; sourceTree = "<group>"; };
+		67D5B1058FACD871F45F8A62 /* AVAmazonS3Client.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVAmazonS3Client.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/PrivateHeaders/AVAmazonS3Client.h"; sourceTree = "<group>"; };
+		6AE4B3B169B1511C3F0A65D1 /* AVLocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVLocationManager.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/PrivateHeaders/AVLocationManager.h"; sourceTree = "<group>"; };
+		714ACA21B29DAEFAC682F1BF /* AVMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVMessage.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/Headers/AVMessage.h"; sourceTree = "<group>"; };
+		75F87F379CA0CA4A4C75FD42 /* AVHistoryMessageQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVHistoryMessageQuery.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/Headers/AVHistoryMessageQuery.h"; sourceTree = "<group>"; };
+		78689B8886740415DA5EA6E5 /* AVHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVHTTPRequestOperation.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/PrivateHeaders/AVHTTPRequestOperation.h"; sourceTree = "<group>"; };
+		7879904D410508ACCFDBDA1C /* AVInstallation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVInstallation.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/Headers/AVInstallation.h"; sourceTree = "<group>"; };
+		7DFD6659612D69F766087EBA /* libAVOSCloud.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libAVOSCloud.a; sourceTree = "<group>"; };
+		7EB95CA4B5712DF4C9D88F2E /* AVSubclassing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVSubclassing.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/Headers/AVSubclassing.h"; sourceTree = "<group>"; };
+		8024C29333FA94B150A85E5E /* AVHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVHelpers.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/PrivateHeaders/AVHelpers.h"; sourceTree = "<group>"; };
+		82103C8151D7556DD2EE86C0 /* AVJSONRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVJSONRequestOperation.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/PrivateHeaders/AVJSONRequestOperation.h"; sourceTree = "<group>"; };
+		8ACC781FCEA171C51D67540F /* AVFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVFile.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/Headers/AVFile.h"; sourceTree = "<group>"; };
+		97EB81150403CF32951AF500 /* AVCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVCloud.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/Headers/AVCloud.h"; sourceTree = "<group>"; };
+		9E51E84BDE132D16248923CC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		A3E000113B40783124799EB7 /* AVRelation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVRelation.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/Headers/AVRelation.h"; sourceTree = "<group>"; };
+		A59F68B7C6FAD210848ED32A /* AVNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVNetworkActivityIndicatorManager.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/PrivateHeaders/AVNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		A5E7350DF1DDFE213E64F91B /* AVCloudQueryResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVCloudQueryResult.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/Headers/AVCloudQueryResult.h"; sourceTree = "<group>"; };
+		A83CDBCB4150D0B5D816F123 /* AVLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVLogger.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/Headers/AVLogger.h"; sourceTree = "<group>"; };
+		A966BD6E33933F7734AB5E3A /* AVAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVAnalytics.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/Headers/AVAnalytics.h"; sourceTree = "<group>"; };
+		AA61BF8F8739769747A36FCF /* AVUserFeedbackAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVUserFeedbackAgent.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/Headers/AVUserFeedbackAgent.h"; sourceTree = "<group>"; };
+		B22FDDD2C7597634E19A19EE /* AVOSCloud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVOSCloud.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/Headers/AVOSCloud.h"; sourceTree = "<group>"; };
+		BCDF6F109694BCAE37FB5817 /* AVObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVObject.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/Headers/AVObject.h"; sourceTree = "<group>"; };
+		C0B36DE2E94F1D3BEE79C5AE /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		C5B06BBB8F0940EE31C58879 /* AVURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVURLConnectionOperation.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/PrivateHeaders/AVURLConnectionOperation.h"; sourceTree = "<group>"; };
+		CC270CA9223FF67F00345C94 /* AVUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVUser.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/Headers/AVUser.h"; sourceTree = "<group>"; };
+		DA9BAF065A428515794FF61A /* AVImageRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVImageRequestOperation.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/PrivateHeaders/AVImageRequestOperation.h"; sourceTree = "<group>"; };
+		E0254C862D95236A65B6A486 /* AVPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVPush.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/Headers/AVPush.h"; sourceTree = "<group>"; };
+		E1AC32A1F3084D99EC556B0F /* AVObject+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AVObject+Subclass.h"; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/Headers/AVObject+Subclass.h"; sourceTree = "<group>"; };
+		E1F11C92577C3FC2DF6A4743 /* AVNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVNetworking.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/PrivateHeaders/AVNetworking.h"; sourceTree = "<group>"; };
+		F3AFBBC65B4384C88D4E4AEC /* AVFileHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVFileHTTPRequestOperation.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/PrivateHeaders/AVFileHTTPRequestOperation.h"; sourceTree = "<group>"; };
+		F6CE887FC2B1A6013F766D71 /* AVSearchQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVSearchQuery.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/Headers/AVSearchQuery.h"; sourceTree = "<group>"; };
+		FA4EF416BC962AD80009E2C0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6593C46D1428FD71C622AE /* AVOSCloud.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AVOSCloud.bundle; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/AVOSCloud.bundle"; sourceTree = "<group>"; };
+		FD762A3D4DDED4274148D87F /* AVHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AVHTTPClient.h; path = "iOS/release-v3.1.2.1/AVOSCloud.framework/PrivateHeaders/AVHTTPClient.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B34222DA732775CA86F2D4E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB9AFA21482269F9B38ACFA3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		256B7128CE6E3FAA3D19452A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA4EF416BC962AD80009E2C0 /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		374ED420F51CBA26F7836857 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4792CA9D4A561A5D993BEC19 /* AVOSCloud */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4792CA9D4A561A5D993BEC19 /* AVOSCloud */ = {
+			isa = PBXGroup;
+			children = (
+				0CFF3E7DBA86769B6DBBDBAD /* AFNetworkingFix.h */,
+				48D9DC0B8858AA51C12D4CC4 /* AVACL.h */,
+				67D5B1058FACD871F45F8A62 /* AVAmazonS3Client.h */,
+				A966BD6E33933F7734AB5E3A /* AVAnalytics.h */,
+				66EA5331604600A2F07D3670 /* AVAnonymousUtils.h */,
+				97EB81150403CF32951AF500 /* AVCloud.h */,
+				A5E7350DF1DDFE213E64F91B /* AVCloudQueryResult.h */,
+				11939209C347AC74310BAD8D /* AVConstants.h */,
+				8ACC781FCEA171C51D67540F /* AVFile.h */,
+				F3AFBBC65B4384C88D4E4AEC /* AVFileHTTPRequestOperation.h */,
+				244A77115B339C2F53B4804C /* AVGeoPoint.h */,
+				0BFA985CE3FBE3C60C1D7D2C /* AVGlobal.h */,
+				06540FC5C38A866AE081FDF1 /* AVGroup.h */,
+				FD762A3D4DDED4274148D87F /* AVHTTPClient.h */,
+				78689B8886740415DA5EA6E5 /* AVHTTPRequestOperation.h */,
+				8024C29333FA94B150A85E5E /* AVHelpers.h */,
+				2F20B934D646C97CFB54AC4C /* AVHistoryMessage.h */,
+				75F87F379CA0CA4A4C75FD42 /* AVHistoryMessageQuery.h */,
+				DA9BAF065A428515794FF61A /* AVImageRequestOperation.h */,
+				7879904D410508ACCFDBDA1C /* AVInstallation.h */,
+				82103C8151D7556DD2EE86C0 /* AVJSONRequestOperation.h */,
+				6AE4B3B169B1511C3F0A65D1 /* AVLocationManager.h */,
+				A83CDBCB4150D0B5D816F123 /* AVLogger.h */,
+				714ACA21B29DAEFAC682F1BF /* AVMessage.h */,
+				A59F68B7C6FAD210848ED32A /* AVNetworkActivityIndicatorManager.h */,
+				E1F11C92577C3FC2DF6A4743 /* AVNetworking.h */,
+				B22FDDD2C7597634E19A19EE /* AVOSCloud.h */,
+				BCDF6F109694BCAE37FB5817 /* AVObject.h */,
+				E1AC32A1F3084D99EC556B0F /* AVObject+Subclass.h */,
+				2DF5468089030E5D09381407 /* AVPropertyListRequestOperation.h */,
+				E0254C862D95236A65B6A486 /* AVPush.h */,
+				609654E2D9BF144C19651B45 /* AVQuery.h */,
+				A3E000113B40783124799EB7 /* AVRelation.h */,
+				571BE729EFC9D816E0D584FE /* AVRole.h */,
+				F6CE887FC2B1A6013F766D71 /* AVSearchQuery.h */,
+				2998C748CB620FDEABFFD93E /* AVSearchSortBuilder.h */,
+				4B1B6E6A5C6872157E601514 /* AVSession.h */,
+				2E9DD96DD03CD9EE6531439E /* AVSignature.h */,
+				205591AB07CBB72D0391328C /* AVStatus.h */,
+				7EB95CA4B5712DF4C9D88F2E /* AVSubclassing.h */,
+				C5B06BBB8F0940EE31C58879 /* AVURLConnectionOperation.h */,
+				CC270CA9223FF67F00345C94 /* AVUser.h */,
+				4032370B3AFA2127C2C2E4E9 /* AVUserFeedback.h */,
+				AA61BF8F8739769747A36FCF /* AVUserFeedbackAgent.h */,
+				17BFA91892ECA0D00668AA55 /* AVUserFeedbackThread.h */,
+				2E79DEFCB1AC1DA005CBE75B /* AVXMLRequestOperation.h */,
+				7C2D4419BF5ACC6E7FB97AB0 /* Frameworks */,
+				B0C38913F30B6BB706390995 /* Resources */,
+			);
+			path = AVOSCloud;
+			sourceTree = "<group>";
+		};
+		5118527E8A6565C676EEF63D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC7362796A7F2629D6598966 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C2D4419BF5ACC6E7FB97AB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DFD6659612D69F766087EBA /* libAVOSCloud.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FECFA1D79C34CA4A4F491BC = {
+			isa = PBXGroup;
+			children = (
+				38862C96359DDD724F1938C7 /* Podfile */,
+				5118527E8A6565C676EEF63D /* Frameworks */,
+				374ED420F51CBA26F7836857 /* Pods */,
+				256B7128CE6E3FAA3D19452A /* Products */,
+				8FEDE19C05874A64A69DFC08 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8FEDE19C05874A64A69DFC08 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D67EFE91108ADF4C414FA5AC /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B0C38913F30B6BB706390995 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FC6593C46D1428FD71C622AE /* AVOSCloud.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D67EFE91108ADF4C414FA5AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				138D7F14A6FCE4ED45BC8B0A /* Pods-acknowledgements.markdown */,
+				3033F197804F68BA8F542B2D /* Pods-acknowledgements.plist */,
+				0488C416F803E8EC34B7A4F7 /* Pods-dummy.m */,
+				2F06231559DB7F2D09D3FF9C /* Pods-environment.h */,
+				C0B36DE2E94F1D3BEE79C5AE /* Pods-resources.sh */,
+				384301779FEE7DB08AB4442B /* Pods.debug.xcconfig */,
+				9E51E84BDE132D16248923CC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		DC7362796A7F2629D6598966 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				27640C54201EA733BF11601B /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		924928165227844A7F0C5A02 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA50F27DC3C2810620C8A20A /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				C3071D376429B3F81B15DB2A /* Sources */,
+				B34222DA732775CA86F2D4E8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = FA4EF416BC962AD80009E2C0 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AB1ECD3B141759145E1B817 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = A8962D788C07EC2969EF18B8 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7FECFA1D79C34CA4A4F491BC;
+			productRefGroup = 256B7128CE6E3FAA3D19452A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				924928165227844A7F0C5A02 /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3071D376429B3F81B15DB2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B857A52B8FD50AA411DE3D3C /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		140C63895DF6C43F8B0E49F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 384301779FEE7DB08AB4442B /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4F6D149F08E1805DA3A86A04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D316A94F9A3C55687B29ACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E51E84BDE132D16248923CC /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CBD775CB3DD75E649C7DFEA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8962D788C07EC2969EF18B8 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBD775CB3DD75E649C7DFEA1 /* Debug */,
+				4F6D149F08E1805DA3A86A04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA50F27DC3C2810620C8A20A /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				140C63895DF6C43F8B0E49F6 /* Debug */,
+				5D316A94F9A3C55687B29ACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AB1ECD3B141759145E1B817 /* Project object */;
+}

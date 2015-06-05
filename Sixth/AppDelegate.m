@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import <AVOSCloud/AVOSCloud.h>
+#import "LoginViewController.h"
+
+#define AVOSCloudAppID  @"a1ie93rls0njtngql4vwpqj574csgp1brqv1tkk0gjx6kjdi"
+#define AVOSCloudAppKey @"q9s6q0f5uaj55na15o9jxh4iwjk9v59hwo90roy7dqkye6m5"
 
 @interface AppDelegate ()
 
@@ -17,6 +22,24 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible ];
+    LoginViewController *loginVC = [[LoginViewController alloc] init];
+    UINavigationController *rootNC = [[UINavigationController alloc] initWithRootViewController:loginVC];
+    self.window.rootViewController = rootNC;
+    
+    //如果使用美国站点，请加上这行代码 [AVOSCloud useAVCloudUS];
+    //设置AVOSCloud
+    [AVOSCloud setApplicationId:AVOSCloudAppID
+                      clientKey:AVOSCloudAppKey];
+    //统计应用启动情况
+    [AVAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
+    /* 重要! 注册子类 App生命周期内 只需要执行一次即可*/
+#warning 为了引起你的注意! 如果明白了用法可以删除这行
+//    [Student registerSubclass];
+    //
     return YES;
 }
 
